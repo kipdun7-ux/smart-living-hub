@@ -25,7 +25,7 @@
       "rating": 4.9,
       "reviews": 2150,
       "description": "Professional-grade stainless steel. Perfect for everyday cooking and meal prep.",
-      "image": "https://via.placeholder.com/280x200?text=Knife+Set",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71example.jpg",
       "benefits": ["Razor-sharp edges", "Ergonomic handles", "Dishwasher safe", "Lifetime warranty"],
       "pros": ["Excellent balance", "Stays sharp", "Great presentation"],
       "cons": ["Hand wash recommended", "Heavier"],
@@ -94,7 +94,7 @@
       "pros": ["Very affordable", "Easy setup", "Great compatibility"],
       "cons": ["WiFi dependent", "Scheduling learning curve"],
       "urgency": "Buy 4 get 1 free",
-      "affiliateLink": "https://amazon.com/s?k=smart+led+bulbs"
+      "affiliateLink": "affiliateLink": "https://www.amazon.com/s?k=smart+thermostat&tag=YOUR-AFFILIATE-ID"
     }
   ]
 }
