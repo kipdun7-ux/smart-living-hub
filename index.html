@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smart Living Hub - Your trusted guide to home essentials and smart tech gadgets.">
+    <title>Smart Living Hub - Premium Home & Tech Product Reviews</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar sticky">
+    <div class="container">
+        <div class="navbar-brand">🏠 Smart Living Hub</div>
+        <ul class="navbar-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="categories.html?cat=home-essentials">Home Essentials</a></li>
+            <li><a href="categories.html?cat=smart-gadgets">Smart Gadgets</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="container">
+        <h1>Discover Smart Living Made Simple</h1>
+        <p>Expert-reviewed home essentials and tech gadgets that improve your life</p>
+        <button class="btn btn-primary btn-lg" onclick="document.getElementById('featured').scrollIntoView({behavior:'smooth'})">
+            Browse Top Picks →
+        </button>
+        <p style="margin-top: 2rem; color: #10b981; font-weight: 600;">⭐ 50K+ readers trust Smart Living Hub</p>
+    </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories">
+    <div class="container">
+        <h2>Explore Our Categories</h2>
+        <div class="category-grid">
+            <a href="categories.html?cat=home-essentials" class="category-card">
+                <div class="icon">🏠</div>
+                <h3>Home Essentials</h3>
+                <p>Kitchen tools, organization, comfort & style</p>
+                <span style="position: absolute; right: 1.5rem; bottom: 1.5rem; font-size: 1.5rem;">→</span>
+            </a>
+            <a href="categories.html?cat=smart-gadgets" class="category-card">
+                <div class="icon">⚡</div>
+                <h3>Smart Tech Gadgets</h3>
+                <p>IoT devices, automation & cutting-edge tech</p>
+                <span style="position: absolute; right: 1.5rem; bottom: 1.5rem; font-size: 1.5rem;">→</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section id="featured" class="featured">
+    <div class="container">
+        <h2>🌟 Top Picks This Month</h2>
+        <div class="products-grid" id="products-container"></div>
+    </div>
+</section>
+
+<!-- TRUST SECTION -->
+<section class="trust">
+    <div class="container">
+        <h2>Why Trust Us?</h2>
+        <div class="trust-grid">
+            <div class="trust-card">
+                <div class="icon">🔍</div>
+                <h3>Expert Research</h3>
+                <p>Hands-on testing & deep analysis before recommending</p>
+            </div>
+            <div class="trust-card">
+                <div class="icon">⭐</div>
+                <h3>Real Feedback</h3>
+                <p>Based on actual user experiences & honest data</p>
+            </div>
+            <div class="trust-card">
+                <div class="icon">💰</div>
+                <h3>Best Value</h3>
+                <p>Quality-to-price ratio, not just expensive items</p>
+            </div>
+            <div class="trust-card">
+                <div class="icon">🎯</div>
+                <h3>No Spam</h3>
+                <p>Independent reviews. Affiliate links disclosed.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BUYING GUIDES -->
+<section class="guides">
+    <div class="container">
+        <h2>Latest Buying Guides</h2>
+        <div class="guides-grid">
+            <article class="guide-card">
+                <img src="https://via.placeholder.com/300x200?text=Smart+Kitchen+Guide" alt="Guide">
+                <h3><a href="blog.html">Complete Guide to Smart Kitchen Tools 2026</a></h3>
+                <p>Learn what makes a great kitchen gadget and find the best options</p>
+            </article>
+            <article class="guide-card">
+                <img src="https://via.placeholder.com/300x200?text=Smart+Home+Setup" alt="Guide">
+                <h3><a href="blog.html">Smart Home Automation 101: Setup & Best Picks</a></h3>
+                <p>Everything you need to automate your home safely and affordably</p>
+            </article>
+            <article class="guide-card">
+                <img src="https://via.placeholder.com/300x200?text=Eco+Home" alt="Guide">
+                <h3><a href="blog.html">Eco-Friendly Home Essentials: Quality & Sustainable</a></h3>
+                <p>Beautiful products that are good for you and the planet</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+    <div class="container">
+        <h2>Loved by Smart Living Enthusiasts</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Smart Living Hub helped me choose perfect gadgets. Thorough & honest!"</p>
+                <strong>Sarah M.</strong>
+            </div>
+            <div class="testimonial">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Finally, a review site that doesn't feel like spam. Highly recommended!"</p>
+                <strong>James L.</strong>
+            </div>
+            <div class="testimonial">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Saved me hundreds by helping me pick right products the first time"</p>
+                <strong>Emma T.</strong>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EMAIL SIGNUP -->
+<section class="email-signup">
+    <div class="container">
+        <h2>Get Weekly Expert Picks</h2>
+        <p>Join 15K+ readers getting our best product recommendations</p>
+        <form id="email-form">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit" class="btn btn-primary">Subscribe Free</button>
+        </form>
+        <p class="small">✓ No spam, unsubscribe anytime</p>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-item">
+                <h3>📧 Email</h3>
+                <p><a href="mailto:kipenterpise@gmail.com">kipenterpise@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <h3>📞 Phone</h3>
+                <p><a href="tel:+1-XXX-XXX-XXXX">+1-XXX-XXX-XXXX</a></p>
+            </div>
+            <div class="contact-item">
+                <h3>💬 WhatsApp</h3>
+                <p><a href="https://wa.me/1234567890" target="_blank">Chat with us →</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container footer-grid">
+        <div>
+            <h4>About Smart Living Hub</h4>
+            <p>Your trusted guide to smart home essentials and tech gadgets</p>
+        </div>
+        <div>
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="categories.html?cat=home-essentials">Home Essentials</a></li>
+                <li><a href="categories.html?cat=smart-gadgets">Smart Gadgets</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Legal</h4>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#affiliate">Affiliate Disclosure</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>⚖️ <strong>AFFILIATE DISCLOSURE:</strong> We earn affiliate commissions from Amazon. <a href="#affiliate">View full disclosure</a></p>
+        <p>&copy; 2026 Smart Living Hub. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/products.js"></script>
+
+</body>
+</html>
